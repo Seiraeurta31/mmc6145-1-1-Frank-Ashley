@@ -1,3 +1,31 @@
-.placeholder {
-    font-size: 2rem;
+.projectInfo {
+    display: flex; 
+    flex-direction: column;
+    margin-top: 135px;
+    padding: 20px;
+    backdrop-filter: blur(2px);
+    background-color: rgba(25, 25, 25, 0.709);
+    justify-content: center;
+    align-items: center;
+    /* background-size: 150%; */
+}
+
+.projectName {
+    font-size: 40px;
+    color: rgb(109, 197, 240);
+    margin: 0px;
+    padding: 0px;
+}
+
+.projectDescription {
+    font-size: 30px;
+    color: antiquewhite;
+    margin: 0px;
+    padding: 10px;
+}
+
+.projectButton {
+    width: 100px;
+    height: 40px;
+    margin: 5px;
 }
