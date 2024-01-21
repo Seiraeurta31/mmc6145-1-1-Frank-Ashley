@@ -1,3 +1,32 @@
-.placeholder {
-    font-size: 4rem;
-  }
+.headerContainer {
+  display: flex;
+  padding: 10px;
+  background-color: #292929;
+}
+
+.logoContainer {
+  /* background-color: blue; */
+  flex-grow: 1;
+}
+
+.logo {
+  color: grey
+}
+
+.linksContainer {
+  display: flex;
+}
+
+.navLinks {
+  /* background-color: pink; */
+  justify-content: space-around;
+  color: lightblue
+}
+
+.navLinks:hover {
+  color: rgb(81, 191, 81)
+}
+
+.logoContainer, .navLinks {
+  padding: 10px;
+}
