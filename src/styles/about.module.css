@@ -1,0 +1,39 @@
+.aboutSection {
+    display: flex;
+    background-color: black; 
+    height:1000px; 
+    justify-content: center;
+}
+
+.aboutInfoContainer {
+    background-color: rgb(154, 154, 154); 
+    border-color: antiquewhite;
+    border-width: 5px;
+    border-style: solid;
+    width: 600px;
+    height: 600px;
+    margin: 40px;
+    padding: 30px;
+}
+
+.aboutHeader {
+    font-size: 40px;
+    text-align: center;
+}
+
+.aboutDescription {
+    font-size: 15px;
+}
+
+.skillsHeader {
+    font-size: 30px;
+    text-align: center;
+}
+
+.skillsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+
+
+}
