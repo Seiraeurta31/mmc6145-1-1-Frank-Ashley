@@ -1,7 +1,7 @@
 .projectInfo {
     display: flex; 
     flex-direction: column;
-    margin-top: 135px;
+    margin-top: 140px;
     padding: 20px;
     backdrop-filter: blur(2px);
     background-color: rgba(25, 25, 25, 0.709);
