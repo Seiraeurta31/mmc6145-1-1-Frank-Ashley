@@ -15,7 +15,7 @@ export default function Contact() {
                 Email: ashley.frank@ufl.edu
               </p>
               <p className={styles.contactDescription}> 
-                Phone: 904-999
+                Phone: 904-999-9999
               </p>
             </div>
 
