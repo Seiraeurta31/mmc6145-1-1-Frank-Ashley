@@ -1,4 +1,6 @@
 import styles from '../styles/contact.module.css'
+import LinkedinLogo from '../assets/linkedin.png'
+import GitHubLogo from '../assets/github.png'
 
 export default function Contact() {
   return (
@@ -27,11 +29,11 @@ export default function Contact() {
               </h2>
               <div>
                 <div className={styles.socialLink}>
-                  <img src = "/src/assets/linkedin.png" alt="JLinkedin Logo" width = "40" height="40"></img>
+                  <img src = {LinkedinLogo} alt="JLinkedin Logo" width = "40" height="40"></img>
                   <a className={styles.connectLinks} href="https://www.linkedin.com/in/ashleyfrank2018">LinkedIn</a>
                 </div>
                 <div className={styles.socialLink}>
-                  <img src = "/src/assets/github.png" alt="Github Logo" width = "40" height="40"></img>
+                  <img src = {GitHubLogo} alt="Github Logo" width = "40" height="40"></img>
                   <a className={styles.connectLinks} href="https://github.com/Seiraeurta31"> GitHub </a> 
                 </div> 
               </div>

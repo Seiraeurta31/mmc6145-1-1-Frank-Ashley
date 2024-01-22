@@ -1,5 +1,12 @@
 import styles from '../styles/about.module.css'
 import javaScriptLogo from '../assets/javascript-js.svg'
+import HTMLLogo from '../assets/htmlLogo.png'
+import CSS3Logo from '../assets/CSS3_logo.png'
+import NodeJSLogo from '../assets/NodeJSLogo.jpg'
+import DockerLogo from '../assets/DockerLogo.png'
+import PhotoshopLogo from '../assets/PhotoshopLogo.png'
+import IndesignLogo from '../assets/IndesignLogo.png'
+import IllustratorLogo from '../assets/IllustratorLogo.png'
 
 export default function About() {
   return (
@@ -16,13 +23,13 @@ export default function About() {
         </h2>
         <div className={styles.skillsContainer}>
           <img src = {javaScriptLogo} alt="Javascript Logo" width = "40" height="40"></img>
-          <img src = "/src/assets/htmlLogo.png" alt="HTML Logo" width = "40" height="40"></img>
-          <img src = "/src/assets/CSS3_logo.svg.png" alt="CSS Logo" width = "40" height="40"></img>
-          <img src = "/src/assets/NodeJS Logo.jpg" alt="JNodeJS Logo" width = "40" height="40"></img>
-          <img src = "/src/assets/Docker Logo.png" alt="Docker Logo" width = "40" height="40"></img>
-          <img src = "/src/assets/Photoshop Logo.svg.png" alt="Photoshop Logo" width = "40" height="40"></img>
-          <img src = "/src/assets/Indesign Logo.png" alt="Indesign Logo" width = "40" height="40"></img>
-          <img src = "/src/assets/Illustrator Logo.png" alt="Illustrator Logo" width = "40" height="40"></img>
+          <img src = {HTMLLogo} alt="HTML Logo" width = "40" height="40"></img>
+          <img src = {CSS3Logo} alt="CSS Logo" width = "40" height="40"></img>
+          <img src = {NodeJSLogo} alt="JNodeJS Logo" width = "40" height="40"></img>
+          <img src = {DockerLogo} alt="Docker Logo" width = "40" height="40"></img>
+          <img src = {PhotoshopLogo} alt="Photoshop Logo" width = "40" height="40"></img>
+          <img src = {IndesignLogo} alt="Indesign Logo" width = "40" height="40"></img>
+          <img src = {IllustratorLogo} alt="Illustrator Logo" width = "40" height="40"></img>
         </div>
       </div>
     </main>
