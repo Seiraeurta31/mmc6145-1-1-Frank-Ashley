@@ -63,9 +63,10 @@ button:hover {
 }
 
 .projectCard1, .projectCard2 {
-  border-color: antiquewhite;
-  border-width: 5px;
+  border-color: rgb(178, 166, 239);
+  border-width: 3px;
   border-style: solid;
+  border-radius: 15px;
   width: 400px;
   height: 353px;
   margin: 20px;

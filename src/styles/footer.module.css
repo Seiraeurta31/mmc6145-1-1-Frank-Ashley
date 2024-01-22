@@ -1,0 +1,12 @@
+.footerContainer {
+    background-color: black;
+    height: 50px;
+    padding: 20px;
+}
+
+.footerByLine {
+    margin: 0px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}

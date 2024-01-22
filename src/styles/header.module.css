@@ -1,16 +1,20 @@
 .headerContainer {
   display: flex;
   padding: 10px;
-  background-color: #0d212d;
+  align-items: baseline;
+  background-color: #103163;
 }
 
 .logoContainer {
-  /* background-color: blue; */
   flex-grow: 1;
+  height: 30px;
 }
 
 .logo {
-  color: grey
+  font-size: 30px;
+  padding: 10px;
+  margin: 0px;
+  color: rgb(208, 211, 219);
 }
 
 .linksContainer {
@@ -18,13 +22,14 @@
 }
 
 .navLinks {
-  /* background-color: pink; */
+  font-size: 18px;
   justify-content: space-around;
-  color: lightblue
+  color: lightblue;
+  
 }
 
 .navLinks:hover {
-  color: rgb(104, 43, 160)
+  color: rgb(104, 43, 160);
 }
 
 .logoContainer, .navLinks {
