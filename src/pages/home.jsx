@@ -7,12 +7,13 @@ export default function Home() {
       <main>
         <div className={styles.introSection}>
           <div className={styles.introInfo}>
-            <h1 className={styles.introHeader}>I'm the home page!</h1>
-            <p> Blah Blah Blah </p>
-            <button>Learn more About me!</button>
+            <h1 className={styles.introHeader}>Full Stack Developer</h1>
+            <p className={styles.homeSubHeader}> Passionate for creating eye-catching effective web applications</p>
+            <a href="#projectSection"><button>My Projects</button></a>
           </div>  
         </div>
-        <div className={styles.projectSection}>
+        <div id="projectSection" className={styles.projectSection}>
+        <h1 className={styles.projectHeader}>My Projects</h1>
           <div className={styles.projectCard1}>
             <Project title="Project1" description="HMTL/CSS Project" link="https://github.com/Seiraeurta31/Class_Project_2023_Titanic.git"/>
           </div>

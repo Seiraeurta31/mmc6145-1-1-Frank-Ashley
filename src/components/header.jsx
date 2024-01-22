@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <header className={styles.headerContainer}>
             <div className={styles.logoContainer}>
-                <Link className={styles.logo}to="/">Home</Link>
+                <Link className={styles.logo}to="/">Ashley Frank</Link>
             </div>
             <div className={styles.linksContainer}>
                 <Link className={styles.navLinks} to="/about">About</Link>

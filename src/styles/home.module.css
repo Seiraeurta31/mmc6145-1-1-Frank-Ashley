@@ -1,12 +1,12 @@
 
 .introSection {
   display: flex;
-  background-image: url('../assets/RainbowSkyline.jpg');   
+  background-image: url('../assets/MainHeroImage1.jpg');   
   width: auto;
-  max-height: 800px;
+  height: 100vh;
   background-size: cover;
-  background-position: bottom;
-  justify-content: center;
+  background-position: center;
+  justify-content: flex-start;
 
 }
 
@@ -15,27 +15,36 @@
   flex-direction: column;
   margin: 40px;
   justify-content: flex-start;
-  height: 400px;
+  min-height: 800px;
   width: auto;
 
 }
 
 .introHeader {
   font-size: 60px;
-  margin: 10px;
-  color: rgb(152, 0, 0);
+  color: rgb(59, 158, 230);
   justify-content: center;
   text-align: center;
+  margin-bottom: 5px;
 }
 
-p {
-  margin-left: 20px;
+.homeSubHeader {
+  font-size: 20px;
+  color:azure;
 }
 
 button {
   width: 100px;
   height: 40px;
-  margin: 20px;
+  margin-top: 20px;
+  border-radius: 10px;;
+  background-color: rgb(59, 230, 202);
+  color: black;
+}
+
+button:hover {
+  background-color: rgb(12, 65, 163);
+  color:azure;
 }
 
 .projectSection {
@@ -43,6 +52,14 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.projectHeader {
+  font-size: 60px;
+  margin: 10px;
+  color: rgb(90, 94, 168);
+  justify-content: center;
+  text-align: center;
 }
 
 .projectCard1, .projectCard2 {

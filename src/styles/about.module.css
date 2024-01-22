@@ -6,7 +6,7 @@
 }
 
 .aboutInfoContainer {
-    background-color: rgb(154, 154, 154); 
+    background-color: rgb(64, 170, 182); 
     border-color: antiquewhite;
     border-width: 5px;
     border-style: solid;
@@ -14,11 +14,13 @@
     height: 600px;
     margin: 40px;
     padding: 30px;
+    border-radius: 10px;
 }
 
 .aboutHeader {
     font-size: 40px;
     text-align: center;
+    color: #0d212d;
 }
 
 .aboutDescription {
@@ -28,12 +30,19 @@
 .skillsHeader {
     font-size: 30px;
     text-align: center;
+    color: #0d212d;
 }
 
 .skillsContainer {
     display: flex;
     justify-content: space-evenly;
     margin: 15px;
+}
 
+.projectButton{
+    color: black;
+}
 
+a:hover{
+    color: rgb(255, 255, 255);
 }

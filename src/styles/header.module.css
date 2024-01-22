@@ -1,7 +1,7 @@
 .headerContainer {
   display: flex;
   padding: 10px;
-  background-color: #000000;
+  background-color: #0d212d;
 }
 
 .logoContainer {
@@ -24,7 +24,7 @@
 }
 
 .navLinks:hover {
-  color: rgb(81, 191, 81)
+  color: rgb(104, 43, 160)
 }
 
 .logoContainer, .navLinks {
