@@ -8,7 +8,8 @@ export default function About() {
           About Me
         </h1>
         <p className={styles.aboutDescription}> 
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut id inventore mollitia illum, earum laborum enim vero deleniti quod nisi excepturi quos esse incidunt provident laudantium soluta. Quaerat, magnam inventore!</p>
+          My passion for art and creativity started at a very young age and continues with every new project. Throughout my studies and personal growth, I found I most enjoy creating art that improves the lives of others. Whether it is helping companies connect with their customers, or enhancing the experience of the user, my primary focus is to use my skills to develop projects that are not only visually appealing but enhance the user experience through optimal performance. 
+        </p>
         <h2 className={styles.skillsHeader}>
           Skills
         </h2>
