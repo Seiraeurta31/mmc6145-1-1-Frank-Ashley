@@ -4,9 +4,14 @@ export default function About() {
   return (
     <main className={styles.aboutSection}>
       <div className={styles.aboutInfoContainer}>
-        <h1 className={styles.aboutHeader}>About Me</h1>
-        <p className={styles.aboutDescription}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut id inventore mollitia illum, earum laborum enim vero deleniti quod nisi excepturi quos esse incidunt provident laudantium soluta. Quaerat, magnam inventore!</p>
-        <h2 className={styles.skillsHeader}>Skills</h2>
+        <h1 className={styles.aboutHeader}>
+          About Me
+        </h1>
+        <p className={styles.aboutDescription}> 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut id inventore mollitia illum, earum laborum enim vero deleniti quod nisi excepturi quos esse incidunt provident laudantium soluta. Quaerat, magnam inventore!</p>
+        <h2 className={styles.skillsHeader}>
+          Skills
+        </h2>
         <div className={styles.skillsContainer}>
           <img src = "src\assets\javascript-js.svg" alt="Javascript Logo" width = "40" height="40"></img>
           <img src = "src\assets\htmlLogo.png" alt="HTML Logo" width = "40" height="40"></img>

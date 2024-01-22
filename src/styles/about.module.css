@@ -1,12 +1,17 @@
 .aboutSection {
     display: flex;
     background-color: black; 
+    background-color: black; 
+    background-image: url('../assets/MainHeroImage1.jpg'); 
+    background-size: cover;
+    background-position: center;
     height:1000px; 
     justify-content: center;
 }
 
 .aboutInfoContainer {
-    background-color: rgb(64, 170, 182); 
+    background-color: rgb(122, 222, 233); 
+    backdrop-filter: opacity(50%);
     border-color: antiquewhite;
     border-width: 5px;
     border-style: solid;

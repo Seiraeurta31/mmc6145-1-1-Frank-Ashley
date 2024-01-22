@@ -1,0 +1,69 @@
+.contactSection {
+    display: flex;
+    background-color: black; 
+    background-image: url('../assets/MainHeroImage1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height:1000px; 
+    justify-content: center;
+}
+
+.contactContainer {
+    background-color: rgb(122, 222, 233); 
+    border-color: antiquewhite;
+    border-width: 5px;
+    border-style: solid;
+    width: 600px;
+    height: 600px;
+    margin: 40px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contactInfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.contactHeader {
+    font-size: 40px;
+    text-align: center;
+    color: #0d212d;
+}
+
+.contactDescription {
+    font-size: 15px;
+    text-align: center;
+}
+
+.connectHeader {
+    font-size: 25px;
+    text-align: center;
+    color: #0d212d;
+    margin-top: 60px;
+}
+
+.connectContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.socialLink {
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;   
+}
+
+.connectLinks {
+    margin-top: 20px;
+}
+
