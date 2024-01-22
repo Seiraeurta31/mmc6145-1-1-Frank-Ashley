@@ -62,7 +62,14 @@ button:hover {
   text-align: center;
 }
 
-.projectCard1, .projectCard2 {
+.projectCardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectCard1, .projectCard2, .projectCard3 {
   border-color: rgb(178, 166, 239);
   border-width: 3px;
   border-style: solid;
@@ -74,11 +81,14 @@ button:hover {
 
 .projectCard1 {
   background-image: url('../assets/Project1.jpg');
- 
 }
 
 .projectCard2 {
   background-image: url('../assets/Project2.jpg');
+}
+
+.projectCard3 {
+  background-image: url('../assets/Project3.jpg');
 }
 
 .introHeader, .homeSubHeader, button, button:hover, .projectHeader {
