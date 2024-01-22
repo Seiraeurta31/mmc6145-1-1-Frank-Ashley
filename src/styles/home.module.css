@@ -80,3 +80,7 @@ button:hover {
 .projectCard2 {
   background-image: url('../assets/Project2.jpg');
 }
+
+.introHeader, .homeSubHeader, button, button:hover, .projectHeader {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}  
