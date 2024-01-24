@@ -42,6 +42,11 @@
     display: flex;
     justify-content: space-evenly;
     margin: 15px;
+    flex-wrap: wrap;
+}
+
+.skillsLogo {
+    padding: 5px;
 }
 
 .projectButton{
@@ -54,4 +59,14 @@ a:hover{
 
 .aboutHeader, .skillsHeader, .aboutDescription {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+@media screen and (max-width: 400px) {
+
+.aboutInfoContainer {
+    width: 250px;
+    height: 600px;
+}
+
 }

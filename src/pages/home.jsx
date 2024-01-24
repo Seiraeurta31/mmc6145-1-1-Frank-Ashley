@@ -12,11 +12,11 @@ export default function Home() {
               Full Stack Developer
             </h1>
             <p className={styles.homeSubHeader}> 
-              Passionate for creating eye-catching effective web applications
+              Passionate creator of eye-catching effective web applications
             </p>
             <a href="#projectSection">
               <button>
-                My Projects
+                My Work
               </button>
             </a>
           </div>  
@@ -25,7 +25,7 @@ export default function Home() {
         <div id="projectSection" className={styles.projectSection}>
           <div>
             <h1 className={styles.projectHeader}>
-              My Projects
+              My Work
             </h1>
           </div>
           <div className={styles.projectCardContainer}>

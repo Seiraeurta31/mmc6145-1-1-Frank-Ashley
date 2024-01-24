@@ -13,7 +13,7 @@
 .introInfo {
   display: flex; 
   flex-direction: column;
-  margin: 40px;
+  margin: 25px;
   justify-content: flex-start;
   min-height: 800px;
   width: auto;
@@ -21,16 +21,18 @@
 }
 
 .introHeader {
-  font-size: 60px;
+  font-size: 70px;
   color: rgb(59, 158, 230);
-  justify-content: center;
-  text-align: center;
+  justify-content: left;
+  text-align: left;
   margin-bottom: 5px;
+  padding-right: 80px;
 }
 
 .homeSubHeader {
-  font-size: 20px;
+  font-size: 25px;
   color:azure;
+  padding-right: 160px;
 }
 
 button {
@@ -81,16 +83,43 @@ button:hover {
 
 .projectCard1 {
   background-image: url('../assets/Project1.jpg');
+  background-position: center;
 }
 
 .projectCard2 {
   background-image: url('../assets/Project2.jpg');
+  background-position: center;
 }
 
 .projectCard3 {
   background-image: url('../assets/Project3.jpg');
+  background-position: center;
 }
 
 .introHeader, .homeSubHeader, button, button:hover, .projectHeader {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }  
+
+
+
+@media screen and (max-width: 400px) {
+
+.introHeader, .projectHeader {
+  font-size: 55px;
+}  
+
+.homeSubHeader {
+  font-size: 20px;
+}
+
+.projectCard1, .projectCard2, .projectCard3 {
+  border-color: rgb(178, 166, 239);
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 15px;
+  width: 275px;
+  height: 253px;
+  margin: 20px;
+}
+
+}

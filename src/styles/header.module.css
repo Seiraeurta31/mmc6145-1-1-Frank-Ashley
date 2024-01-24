@@ -19,6 +19,7 @@
 
 .linksContainer {
   display: flex;
+  margin-right: 5px;
 }
 
 .navLinks {
@@ -39,3 +40,17 @@
 .logo, .navLinks {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }  
+
+
+
+@media screen and (max-width: 450px) {
+
+.logo {
+  font-size: 20px;
+}
+
+.navLinks {
+  font-size: 16px; 
+}
+
+}

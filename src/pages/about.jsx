@@ -22,14 +22,14 @@ export default function About() {
           Skills
         </h2>
         <div className={styles.skillsContainer}>
-          <img src = {javaScriptLogo} alt="Javascript Logo" width = "40" height="40"></img>
-          <img src = {HTMLLogo} alt="HTML Logo" width = "40" height="40"></img>
-          <img src = {CSS3Logo} alt="CSS Logo" width = "40" height="40"></img>
-          <img src = {NodeJSLogo} alt="JNodeJS Logo" width = "40" height="40"></img>
-          <img src = {DockerLogo} alt="Docker Logo" width = "40" height="40"></img>
-          <img src = {PhotoshopLogo} alt="Photoshop Logo" width = "40" height="40"></img>
-          <img src = {IndesignLogo} alt="Indesign Logo" width = "40" height="40"></img>
-          <img src = {IllustratorLogo} alt="Illustrator Logo" width = "40" height="40"></img>
+          <img className={styles.skillsLogo} src = {javaScriptLogo} alt="Javascript Logo" width = "40" height="40"></img>
+          <img className={styles.skillsLogo} src = {HTMLLogo} alt="HTML Logo" width = "40" height="40"></img>
+          <img className={styles.skillsLogo} src = {CSS3Logo} alt="CSS Logo" width = "40" height="40"></img>
+          <img className={styles.skillsLogo} src = {NodeJSLogo} alt="JNodeJS Logo" width = "40" height="40"></img>
+          <img className={styles.skillsLogo} src = {DockerLogo} alt="Docker Logo" width = "40" height="40"></img>
+          <img className={styles.skillsLogo} src = {PhotoshopLogo} alt="Photoshop Logo" width = "40" height="40"></img>
+          <img className={styles.skillsLogo} src = {IndesignLogo} alt="Indesign Logo" width = "40" height="40"></img>
+          <img className={styles.skillsLogo} src = {IllustratorLogo} alt="Illustrator Logo" width = "40" height="40"></img>
         </div>
       </div>
     </main>
