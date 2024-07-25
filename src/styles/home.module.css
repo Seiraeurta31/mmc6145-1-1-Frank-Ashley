@@ -71,7 +71,7 @@ button:hover {
   justify-content: center;
 }
 
-.projectCard1, .projectCard2, .projectCard3 {
+.projectCard1, .projectCard2, .projectCard3, .projectCard4 {
   border-color: rgb(178, 166, 239);
   border-width: 3px;
   border-style: solid;
@@ -96,6 +96,12 @@ button:hover {
   background-position: center;
 }
 
+
+.projectCard4 {
+  background-image: url('../assets/Project4.jpg');
+  background-position: center;
+}
+
 .introHeader, .homeSubHeader, button, button:hover, .projectHeader {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }  
@@ -112,7 +118,7 @@ button:hover {
   font-size: 20px;
 }
 
-.projectCard1, .projectCard2, .projectCard3 {
+.projectCard1, .projectCard2, .projectCard3, .projectCard4 {
   border-color: rgb(178, 166, 239);
   border-width: 3px;
   border-style: solid;
